@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# gems for the mongodb demo app
+gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+gem 'bson_ext'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
